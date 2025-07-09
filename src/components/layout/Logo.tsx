@@ -32,7 +32,7 @@ const Logo: React.FC<LogoProps> = ({ size = 'medium', color = 'white' }) => {
       {/* RB Icon Logo */}
       <div className={`${iconSizes[size]} flex-shrink-0`}>
         <img 
-          src="/src/assets/images/rb_logo.png" 
+          src="/rb_logo.png" 
           alt="RB Logo" 
           className="w-full h-full object-contain"
         />
@@ -41,7 +41,7 @@ const Logo: React.FC<LogoProps> = ({ size = 'medium', color = 'white' }) => {
       {/* RB Text Logo - Desktop */}
       <div className={`${desktopWordLogoSizes[size]} flex-shrink-0 hidden md:block`}>
         <img 
-          src="/src/assets/images/rb_text_f.png" 
+          src="/rb_text_f.png" 
           alt="RecklessBear" 
           className="w-full h-full object-contain"
         />
@@ -50,7 +50,7 @@ const Logo: React.FC<LogoProps> = ({ size = 'medium', color = 'white' }) => {
       {/* RB Text Logo - Mobile (smaller) */}
       <div className={`${mobileWordLogoSizes[size]} flex-shrink-0 block md:hidden`}>
         <img 
-          src="/src/assets/images/rb_text_mobile_f.png" 
+          src="/rb_text_mobile_f.png" 
           alt="RB" 
           className="w-full h-full object-contain"
         />

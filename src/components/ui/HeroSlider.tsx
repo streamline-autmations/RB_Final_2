@@ -17,19 +17,19 @@ const HeroSlider: React.FC = () => {
   const slides: Slide[] = [
     {
       id: 1,
-      backgroundImage: '/src/assets/images/hero_slide_1.jpg',
+      backgroundImage: '/hero_slide_1.jpg',
       subtitle: 'Custom School Sportswear',
       description: 'Elite uniforms designed for schools and educational institutions across South Africa'
     },
     {
       id: 2,
-      backgroundImage: '/src/assets/images/hero_slide_2.jpg',
+      backgroundImage: '/hero_slide_2.jpg',
       subtitle: 'Elite Club Kits Built for Performance',
       description: 'Professional-grade sportswear engineered for competitive teams and athletes'
     },
     {
       id: 3,
-      backgroundImage: '/src/assets/images/hero_slide_3.jpg',
+      backgroundImage: '/hero_slide_3.jpg',
       subtitle: 'Made in SA – Quality Gear for Teams',
       description: 'Proudly manufactured in Johannesburg with world-class standards and craftsmanship'
     }

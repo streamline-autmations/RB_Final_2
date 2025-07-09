@@ -6,11 +6,11 @@ import BaseProductPage from '../../components/shared/BaseProductPage';
 
 const RugbyJerseysPage: React.FC = () => {
   const galleryImages = [
-    { src: '/src/assets/images/hero-front.jpg', alt: 'Rugby Jersey Front View' },
-    { src: '/src/assets/images/hero-back.jpg', alt: 'Rugby Jersey Back View' },
-    { src: '/src/assets/images/print-area-front.png', alt: 'Front Print Areas' },
-    { src: '/src/assets/images/print-area-back.png', alt: 'Back Print Areas' },
-    { src: '/src/assets/images/Flat-MCP.jpg', alt: 'Jersey Flat Layout' }
+    { src: '/hero-front.jpg', alt: 'Rugby Jersey Front View' },
+    { src: '/hero-back.jpg', alt: 'Rugby Jersey Back View' },
+    { src: '/print-area-front.png', alt: 'Front Print Areas' },
+    { src: '/print-area-back.png', alt: 'Back Print Areas' },
+    { src: '/Flat-MCP.jpg', alt: 'Jersey Flat Layout' }
   ];
 
   return (
@@ -19,7 +19,7 @@ const RugbyJerseysPage: React.FC = () => {
       <section className="pt-32 pb-16 bg-rb-black relative overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-50"
-          style={{ backgroundImage: `url(/src/assets/images/hero-front.jpg)` }}
+          style={{ backgroundImage: `url(/hero-front.jpg)` }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-rb-black to-transparent"></div>
         

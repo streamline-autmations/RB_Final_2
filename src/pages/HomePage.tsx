@@ -9,14 +9,14 @@ import FAQSection from '../components/ui/FAQSection';
 
 const HomePage: React.FC = () => {
   const categories = [
-    { name: 'Rugby', image: '/src/assets/images/category_rugby.jpg', description: 'Professional rugby kits and training gear', path: '/products/rugby-kits' },
-    { name: 'Netball', image: '/src/assets/images/category_netball.jpg', description: 'Custom netball uniforms and accessories', path: '/products/netball-kits' },
-    { name: 'Matric Jackets', image: '/src/assets/images/category_matric.jpg', description: 'Personalized matric jackets and hoodies', path: '/products/matric-jackets' },
-    { name: 'Hockey', image: '/src/assets/images/category_hockey.jpg', description: 'High-performance hockey uniforms', path: '/products/hockey-kits' },
+    { name: 'Rugby', image: '/category_rugby.jpg', description: 'Professional rugby kits and training gear', path: '/products/rugby-kits' },
+    { name: 'Netball', image: '/category_netball.jpg', description: 'Custom netball uniforms and accessories', path: '/products/netball-kits' },
+    { name: 'Matric Jackets', image: '/category_matric.jpg', description: 'Personalized matric jackets and hoodies', path: '/products/matric-jackets' },
+    { name: 'Hockey', image: '/category_hockey.jpg', description: 'High-performance hockey uniforms', path: '/products/hockey-kits' },
     { name: 'Soccer', image: 'https://images.pexels.com/photos/274422/pexels-photo-274422.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=2', description: 'Professional soccer kits and training wear', path: '/products/soccer-kits' },
-    { name: 'Cricket', image: '/src/assets/images/category_cricket.jpg', description: 'Traditional cricket whites and training gear', path: '/products/cricket-kits' },
-    { name: 'Tracksuits', image: '/src/assets/images/category_tracksuits.jpg', description: 'Custom team tracksuits and warm-up gear', path: '/products/teamwear-sets' },
-    { name: 'Golf Shirts', image: '/src/assets/images/category_golf.jpg', description: 'Premium golf apparel and accessories', path: '/products/golf-apparel' }
+    { name: 'Cricket', image: '/category_cricket.jpg', description: 'Traditional cricket whites and training gear', path: '/products/cricket-kits' },
+    { name: 'Tracksuits', image: '/category_tracksuits.jpg', description: 'Custom team tracksuits and warm-up gear', path: '/products/teamwear-sets' },
+    { name: 'Golf Shirts', image: '/category_golf.jpg', description: 'Premium golf apparel and accessories', path: '/products/golf-apparel' }
   ];
   
   return (
@@ -36,7 +36,7 @@ const HomePage: React.FC = () => {
             >
               <div className="aspect-square rounded-lg overflow-hidden shadow-2xl">
                 <img 
-                  src="/src/assets/images/rb-about.png" 
+                  src="/rb-about.png" 
                   alt="RecklessBear Team" 
                   className="w-full h-full object-cover"
                 />

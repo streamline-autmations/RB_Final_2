@@ -18,19 +18,19 @@ const ProductsPage: React.FC = () => {
     // Rugby Products
     {
       title: 'Rugby Jerseys',
-      image: '/src/assets/images/sublimated-card.jpg',
+      image: '/sublimated-card.jpg',
       category: 'Rugby',
       path: '/products/rugby-kits/jerseys'
     },
     {
       title: 'Rugby Shorts',
-      image: '/src/assets/images/shorts-card.jpg',
+      image: '/shorts-card.jpg',
       category: 'Rugby',
       path: '/products/rugby-kits/shorts'
     },
     {
       title: 'Full Rugby Kit',
-      image: '/src/assets/images/full-kit-card.jpg',
+      image: '/full-kit-card.jpg',
       category: 'Rugby',
       path: '/products/rugby-kits/full-kit'
     },

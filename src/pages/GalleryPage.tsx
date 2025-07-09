@@ -7,7 +7,7 @@ const GalleryPage: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState('All');
   
   const galleryItems = [
-    { image: '/src/assets/images/sublimated-card.jpg', title: 'Rugby Team Kit', category: 'Sports Kits' },
+    { image: '/sublimated-card.jpg', title: 'Rugby Team Kit', category: 'Sports Kits' },
     { image: 'https://images.pexels.com/photos/618612/pexels-photo-618612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', title: 'School Athletics Uniform', category: 'Sports Kits' },
     { image: 'https://images.pexels.com/photos/8007513/pexels-photo-8007513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', title: 'Custom Netball Dress', category: 'Sports Kits' },
     { image: 'https://images.pexels.com/photos/8112200/pexels-photo-8112200.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', title: 'Corporate Staff Uniform', category: 'Corporate' },

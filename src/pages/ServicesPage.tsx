@@ -10,7 +10,7 @@ const ServicesPage: React.FC = () => {
       features: ['Built for performance + style', 'Custom embroidery and numbering', 'Moisture-wicking, game-ready materials'],
       ctaText: 'Get a Quote',
       ctaLink: '/contact',
-      image: '/src/assets/images/sublimated-card.jpg'
+      image: '/sublimated-card.jpg'
     },
     {
       title: 'Corporate Uniforms',

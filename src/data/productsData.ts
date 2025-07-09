@@ -10,21 +10,21 @@ const allProducts: Product[] = [
   // Rugby Products
   {
     title: 'Rugby Jerseys',
-    image: '/src/assets/images/sublimated-card.jpg',
+    image: '/sublimated-card.jpg',
     category: 'Rugby',
     subcategory: 'Jerseys',
     path: '/products/rugby-kits/jerseys'
   },
   {
     title: 'Rugby Shorts',
-    image: '/src/assets/images/shorts-card.jpg',
+    image: '/shorts-card.jpg',
     category: 'Rugby',
     subcategory: 'Shorts',
     path: '/products/rugby-kits/shorts'
   },
   {
     title: 'Full Rugby Kit',
-    image: '/src/assets/images/full-kit-card.jpg',
+    image: '/full-kit-card.jpg',
     category: 'Rugby',
     subcategory: 'Full Kit',
     path: '/products/rugby-kits/full-kit'
