@@ -1,1 +1,15 @@
+# Ignore folders that add bulk
+node_modules/*
+dist/*
+public/*
+src/assets/*
+RB IMAGES/*
+
+# Optional: ignore heavy file types too
+*.psd
+*.ai
+*.mp4
+*.mov
+*.zip
+*.rar
 
