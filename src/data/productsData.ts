@@ -261,13 +261,6 @@ const allProducts: Product[] = [
   },
 
   // Other Sports & Clubs - Darts
-  {
-    title: 'Darts Shirts',
-    image: 'https://images.pexels.com/photos/6577527/pexels-photo-6577527.jpeg',
-    category: 'Other Sports & Clubs',
-    subcategory: 'Darts',
-    path: '/products/darts-shirts'
-  },
 
   // Other Sports & Clubs - Cycling
   {
