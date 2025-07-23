@@ -1,13 +1,8 @@
 export default defineConfig({
-  // ✅ Remove this line:
-  // root: 'src',
-
   plugins: [react()],
   build: {
-    outDir: 'dist', // Not ../dist anymore
+    outDir: 'dist', // no ../ needed now
     emptyOutDir: true,
   },
-  optimizeDeps: {
-    exclude: ['lucide-react'],
-  },
 });
+
